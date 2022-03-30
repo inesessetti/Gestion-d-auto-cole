@@ -1,0 +1,53 @@
+.PageProfile{
+    height: 91.9vh;
+    margin-top: -1vh;
+   
+}
+.avatar{
+    width:9vw;
+    height: 18vh;
+    border-color: #0b132b;
+    border-width: 5px;
+}
+.avatar-container{
+    margin-top: -26.1vh;
+    margin-left: 4vw;
+}
+.Titles{
+    margin-top: 24vh;
+    margin-right: -4.5vw;
+}
+.hr{
+    margin-top: 2vh; 
+    size: 2vw;
+    margin-bottom: 2vw;
+}
+.sousTitre{
+    margin-top: 1vh;
+    
+    color: #5bc0be;
+}
+
+.notification :hover{
+    transition: cubic-bezier(1, 0, 0, 1);
+}
+.Alert{
+    margin-top: 2vh;
+    margin-left: 1vw;
+    width: 35vw;
+}
+.icon-container{
+    background-color: #000;
+    width: 2;
+    height: 2;
+}
+.bg_image{
+     /* Full height */
+  height: 100%;
+  width: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}

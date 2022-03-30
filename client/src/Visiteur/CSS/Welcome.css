@@ -1,0 +1,82 @@
+.imgServiceG {
+    width: 400px;
+    height: 200px;
+    -webkit-clip-path: polygon(0 0, 0 100px, 100px 80px, 100px 0);
+    clip-path: polygon(100% 0%, 75% 50%, 100% 100%, 25% 100%, 0% 50%, 25% 0%);
+    object-fit: fill;
+  }
+  .imgServiceD{
+  width: 400px;
+  height: 200px;
+  -webkit-clip-path: polygon(0 0, 0 100px, 100px 80px, 100px 0);
+  clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 25% 50%, 0% 0%);
+  object-fit: fill;
+  position: relative;
+}
+  .welcomeTitle{
+    color: #1c2541;
+    font-size: 2.5rem;
+    margin-top: 11vh;
+    writing-mode: vertical-rl;
+      text-orientation: sideways;
+      
+  }
+  .welcomePage{
+      background-color: #f2f2f2;
+      display: flex;
+      flex-direction: column;
+  }
+  .ServiceTitle{
+      color: #f2f2f2;
+      margin-left:5vw;
+      margin-top: 2vh;
+      margin-bottom: 2vh;
+      
+  }
+  .ServicesousTitle{
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left:2vw;
+    margin-right: 2vh;
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+    font-size: small;
+    word-spacing: 0.2vw;
+} 
+.Tarif{
+    margin-left: 70%;
+}
+.aboutus{
+  height: 100vh;
+  background-color: #1c2541;
+  margin-top: 9vh;
+  display: flex;
+  flex-direction: row;
+}
+.firstPage{
+  height: 100vh;
+  background-color: #1c2541;
+}
+.TitleFP{
+  margin-top: 5vh;
+  color: #f2f2f2;
+}
+.page1{
+  height: 100vh;
+  background-color: #0b132b;
+  margin-top: 400
+}
+
+.image{
+  width: 100%;
+  margin-top: 10vh;
+  opacity: 0.6;
+}
+.buttonInscription{
+  margin-left: 38vw;
+  margin-top: 10vh;
+  margin-right: 5vw
+}
+.buttonConnection{
+  margin-top: 10vh;
+}

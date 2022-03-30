@@ -1,0 +1,68 @@
+ .title{
+    display: flex;
+    height: 12vh;
+    align-items: center;
+    margin-left: 1px;
+padding-left: 670px;
+    font-size: 3rem;
+  margin-bottom: 5vh;
+    color: #16222A;
+    margin-top: 50px;
+ }
+
+  .DeleteButton {
+	pointer-events: auto;
+	cursor: pointer;
+	background: #f50057;
+	border: none;
+	padding: 1rem 1.5rem;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-size: inherit;
+	position: relative;
+	display: inline-block;
+  border-radius: 2%;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.15);
+  transition: box-shadow 0.3s ease-in-out;
+  color: #f2f2f2;
+  height: 7vh;
+  width: 4vw;
+  text-align: center;
+}
+.DeleteButton:hover{
+  box-shadow: 0 5px 15px rgba(0,0,0,0.4);
+  background-color: rgba(245, 0, 87,0.95);
+}
+
+.UpdateButton {
+	pointer-events: auto;
+	cursor: pointer;
+	background: #f50057;
+	border: none;
+	padding: 1rem 1.5rem;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-size: inherit;
+	position: relative;
+	display: inline-block;
+  text-decoration: none;
+  border-radius: 2%;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.15);
+  transition: box-shadow 0.3s ease-in-out;
+  color: #f2f2f2;
+  height: 7vh;
+  width: 4vw;
+  text-align: center;
+
+}
+.UpdateButton:hover{
+  box-shadow: 0 5px 15px rgba(0,0,0,0.4);
+  background-color: rgba(245, 0, 87,0.95);
+}
+.session-ref{
+  text-decoration: none;
+  font-size: 1.2rem;
+  color: #16222A;
+}
+.session-ref:hover{
+  transition:all 0.2s;
+  color:#52ab98;
+}

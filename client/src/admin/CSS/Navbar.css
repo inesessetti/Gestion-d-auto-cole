@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+.navbarAdmin {
+  background-color: #060b26;
+  height: 4vw;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  
+}
+.menu-barsAdmin {
+  margin-left:6vh;
+  font-size: 2rem;
+  background: none;
+  color: #f2e9e4;
+}
+
+.nav-menuAdmin {
+  background-color: #060b26;
+  width: 250px; /*nkhaliwha px khir.. sinon dhaharli lesemha 34vh*/
+  height: 102vh;
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  transition: all 0.1s;
+  margin-left: -100%;
+}
+
+.nav-menuAdmin.active {
+  left: 0;
+  transition: 750ms ease-in-out;
+  margin-left: 0%;
+}
+
+.nav-textAdmin {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  padding: 3vh 0vh 3px 3vh; /*3 px obligée sinon l color fel hover tji ghalta*/
+  list-style: none;
+  height: 9vh;
+}
+
+.nav-textAdmin a {
+  text-decoration: none;
+  color: #f5f5f5;
+  font-size: 18px;
+  width: 95%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding: 0 1vw;
+  border-radius: 4px;
+}
+
+.nav-textAdmin a:hover {
+  background-color: #52ab98;
+  transition: all 0.3s;
+}
+
+.nav-menu-itemsAdmin {
+  width: 100%;
+}
+
+.navbar-toggleAdmin {
+  background-color: #060b26;
+  width: 100%;
+  height: 12vh;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+span {
+  margin-left: 1vw;
+}
+
+
+.side-menu-footerAdmin{
+  width: 100%;
+  background: #52ab98;
+  position: absolute;
+  bottom: 2%;
+  top: 91vh;
+  left: 0;
+  padding: 1vh;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+}
+.user-infoAdmin{
+  display: inline-block;
+  margin: 1vh 15%;
+  margin-bottom: 1vh;
+  color: #f2e9e4;
+  opacity: 1;
+  transition: opacity .2s ease-in;
+}
+
+.logoAdmin{
+
+  width: 40%; /*30%*/
+  height: 40%; /*bel pourcentage a7sen 7aja l9itha*/ /*30%*/
+  margin-left: 10vh;  /*3vh*/
+  margin-bottom: -4vh;  /*2vh*/
+  margin-top: 0vh;   /*3vh*/
+  box-sizing: border-box;
+  float: left;
+}
+
+.TitlesAdmin{
+  box-sizing: border-box;
+  float:right;
+  margin-right: 10vh; /*6vh*/
+  margin-top: 5vh ;
+  color: #f2e9e4;
+}
+.TitlesAdmin :hover {
+  color:#52ab98;
+  transition: all 0.3s;
+}
+.barsAdmin:hover{
+  fill:#52ab98;
+  transition: all 0.4s;
+  width: 90%;
+}
+.barsAdmin{
+  size: 7vh;
+}
+.hrAdmin{
+  margin-top: 38%;
+
+  width: 80%;
+  margin-left: 8%;
+  opacity: 0.8 ;
+  border: 1px solid  #52ab98 !important;
+  border-radius: 2px;
+}
+.site-titleAdmin{
+  text-align: center;
+  float:right;
+  box-sizing:border-box;
+  margin-left:43%;
+  color: #f2e9e4;
+  position:absolute;
+  margin-top: 5vh;
+}
+.site-titleAdmin h2 {
+  font-size: 28px;
+  font-family: 'PT Sans', sans-serif;
+}
+.avatarAdmin {
+  vertical-align: middle;
+  width: 24%;
+  height: 24%;
+  border-radius: 50%;
+  margin-right: 400vh;
+  margin-left: 0%;
+  margin-bottom: -20%;
+
+}
+.logoutAdmin{
+  display: flex;
+  flex-direction: row;
+  left: 80vw;
+  color: #f2e9e4;
+  
+}
+.deconnectionAdmin{
+  color: #f2e9e4;
+}
+.deconnectionAdmin:hover{
+  color: #52ab98;
+  transition: all 0.8s;
+}
+.colorText {
+  color: #52ab98
+}
